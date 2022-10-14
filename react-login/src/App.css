@@ -1,6 +1,6 @@
 body {
   background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,255,0.9838068181818181) 61%, rgba(0,212,255,1) 100%
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(106, 0, 255, 0.984) 61%, rgba(0,212,255,1) 100%
   );
   overflow-y: hidden;
 }
@@ -12,3 +12,65 @@ body {
   align-items: center;
   justify-content: center;
 }
+h1{
+  text-align: center;
+}
+
+.formContainer form {
+  background-color: rgba(255, 255, 255, 0.94);
+  width: 70%;
+  max-width: 450px;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid #dfdfdf;
+  box-shadow: 28px 22px 30px -14px #777777;
+  border-radius: 10px;
+}
+.uiform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 400px;
+}
+.formField{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.formField input{
+  border: 1px solid grey;
+  padding: 20px;
+  border-radius: 4px;
+}
+.formField input:focus {
+  outline: none;
+}
+.formField label {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+
+button {
+  background-color: rgba(93, 102, 222, 0.858);
+  width: 100%;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 30px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+button:hover {
+  background-color:  rgba(73, 83, 218, 0.858);;
+}
+
+
+
+
+
+
