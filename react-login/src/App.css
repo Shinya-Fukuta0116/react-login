@@ -69,7 +69,16 @@ button:hover {
   background-color:  rgba(73, 83, 218, 0.858);;
 }
 
+.errorMsg {
+  color: red;
+  margin: 0;
+  align-self: flex-start;
+}
 
+.msgOk {
+  color: green;
+  margin-top: 15px;
+}
 
 
 
